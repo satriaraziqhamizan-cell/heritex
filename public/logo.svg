@@ -1,0 +1,105 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leftPillarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#C95928" />
+      <stop offset="50%" stopColor="#BD4F20" />
+      <stop offset="100%" stopColor="#9C3B12" />
+    </linearGradient>
+    <linearGradient id="rightPillarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0B423F" />
+      <stop offset="50%" stopColor="#083735" />
+      <stop offset="100%" stopColor="#052422" />
+    </linearGradient>
+    <linearGradient id="roofGableGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#755644" />
+      <stop offset="100%" stopColor="#543A2B" />
+    </linearGradient>
+    <linearGradient id="xArmTopLeftGrad" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stopColor="#C95928" />
+      <stop offset="50%" stopColor="#9E4624" />
+      <stop offset="100%" stopColor="#C45727" />
+    </linearGradient>
+    <linearGradient id="xArmBottomLeftGrad" x1="20%" y1="80%" x2="80%" y2="20%">
+      <stop offset="0%" stopColor="#0A3E3C" />
+      <stop offset="50%" stopColor="#1C4B47" />
+      <stop offset="100%" stopColor="#B34B22" />
+    </linearGradient>
+    <linearGradient id="copperPinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#E09F87" />
+      <stop offset="60%" stopColor="#C6765D" />
+      <stop offset="100%" stopColor="#9C523C" />
+    </linearGradient>
+    <linearGradient id="circleBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#D9DAE7" />
+      <stop offset="100%" stopColor="#C6C8DA" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Periwinkle Background Badge -->
+  <circle cx="100" cy="100" r="96" fill="url(#circleBgGrad)" stroke="#B6B9CE" stroke-width="1.5" />
+
+  <!-- Top Roof Gables -->
+  <polygon points="42,28 69,38 48,56" fill="url(#roofGableGrad)" />
+  <polygon points="156,26 129,38 152,54" fill="url(#roofGableGrad)" />
+
+  <!-- Left Pillar (Terracotta Motif Column) -->
+  <path d="M45 56 L71 39 V160 L45 174 Z" fill="url(#leftPillarGrad)" />
+  <path d="M69 40 L71 39 V160 L69 161 Z" fill="#7E2C0B" opacity="0.5" />
+
+  <!-- Batik Traditional Floral 8-Point Rosettes on Left Pillar -->
+  <g fill="#FBE1C8" opacity="0.95">
+    <g transform="translate(58, 62) scale(0.68)">
+      <path d="M0 -8 C1 -5 3 -3 6 -3 C3 0 1 2 0 6 C-1 2 -3 0 -6 -3 C-3 -3 -1 -5 0 -8 Z" fill="#FCEBD9" />
+      <circle cx="0" cy="-0.5" r="1.6" fill="#A83E16" /><circle cx="0" cy="-0.5" r="0.8" fill="#FFF4EB" />
+    </g>
+    <g transform="translate(58, 77) scale(0.68)">
+      <path d="M0 -8 C1 -5 3 -3 6 -3 C3 0 1 2 0 6 C-1 2 -3 0 -6 -3 C-3 -3 -1 -5 0 -8 Z" fill="#FCEBD9" />
+      <circle cx="0" cy="-0.5" r="1.6" fill="#A83E16" /><circle cx="0" cy="-0.5" r="0.8" fill="#FFF4EB" />
+    </g>
+    <g transform="translate(58, 92) scale(0.68)">
+      <path d="M0 -8 C1 -5 3 -3 6 -3 C3 0 1 2 0 6 C-1 2 -3 0 -6 -3 C-3 -3 -1 -5 0 -8 Z" fill="#FCEBD9" />
+      <circle cx="0" cy="-0.5" r="1.6" fill="#A83E16" /><circle cx="0" cy="-0.5" r="0.8" fill="#FFF4EB" />
+    </g>
+    <g transform="translate(58, 107) scale(0.68)">
+      <path d="M0 -8 C1 -5 3 -3 6 -3 C3 0 1 2 0 6 C-1 2 -3 0 -6 -3 C-3 -3 -1 -5 0 -8 Z" fill="#FCEBD9" />
+      <circle cx="0" cy="-0.5" r="1.6" fill="#A83E16" /><circle cx="0" cy="-0.5" r="0.8" fill="#FFF4EB" />
+    </g>
+    <g transform="translate(58, 122) scale(0.68)">
+      <path d="M0 -8 C1 -5 3 -3 6 -3 C3 0 1 2 0 6 C-1 2 -3 0 -6 -3 C-3 -3 -1 -5 0 -8 Z" fill="#FCEBD9" />
+      <circle cx="0" cy="-0.5" r="1.6" fill="#A83E16" /><circle cx="0" cy="-0.5" r="0.8" fill="#FFF4EB" />
+    </g>
+    <g transform="translate(58, 137) scale(0.68)">
+      <path d="M0 -8 C1 -5 3 -3 6 -3 C3 0 1 2 0 6 C-1 2 -3 0 -6 -3 C-3 -3 -1 -5 0 -8 Z" fill="#FCEBD9" />
+      <circle cx="0" cy="-0.5" r="1.6" fill="#A83E16" /><circle cx="0" cy="-0.5" r="0.8" fill="#FFF4EB" />
+    </g>
+    <g transform="translate(58, 152) scale(0.68)">
+      <path d="M0 -8 C1 -5 3 -3 6 -3 C3 0 1 2 0 6 C-1 2 -3 0 -6 -3 C-3 -3 -1 -5 0 -8 Z" fill="#FCEBD9" />
+      <circle cx="0" cy="-0.5" r="1.6" fill="#A83E16" /><circle cx="0" cy="-0.5" r="0.8" fill="#FFF4EB" />
+    </g>
+  </g>
+
+  <!-- Center X Crossing Bands -->
+  <path d="M71 72 Q95 95 129 160 L149 148 Q108 90 71 58 Z" fill="url(#xArmTopLeftGrad)" />
+  <path d="M45 160 Q82 108 129 72 L129 58 Q85 96 68 152 Z" fill="url(#xArmBottomLeftGrad)" />
+  <path d="M85 86 Q100 100 115 116 Q100 128 85 86 Z" fill="#1E4744" opacity="0.4" />
+
+  <!-- Right Pillar (Teal Circuit Column) -->
+  <path d="M129 39 L155 56 V174 L129 160 Z" fill="url(#rightPillarGrad)" />
+  <path d="M129 39 L131 40 V161 L129 160 Z" fill="#0F5B57" opacity="0.6" />
+
+  <!-- Circuit Board Traces & Nodes -->
+  <g stroke="#C6EFEA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M136 50 V68 L142 74 V84" /><circle cx="136" cy="50" r="1.8" fill="#C6EFEA" /><circle cx="142" cy="84" r="1.8" fill="#C6EFEA" />
+    <path d="M148 58 V70 L142 76" /><circle cx="148" cy="58" r="1.8" fill="#C6EFEA" />
+    <path d="M148 80 V98 L142 104 V116 L146 120 V138" /><circle cx="148" cy="80" r="1.8" fill="#C6EFEA" /><circle cx="146" cy="138" r="1.8" fill="#C6EFEA" />
+    <path d="M152 70 V88 L148 92" /><circle cx="152" cy="70" r="1.8" fill="#C6EFEA" />
+    <path d="M136 82 V104 L140 108" /><circle cx="136" cy="82" r="1.8" fill="#C6EFEA" />
+    <path d="M136 122 V142 L142 148 V162" /><circle cx="136" cy="122" r="1.8" fill="#C6EFEA" /><circle cx="142" cy="162" r="1.8" fill="#C6EFEA" />
+    <path d="M148 146 V158" /><circle cx="148" cy="146" r="1.8" fill="#C6EFEA" /><circle cx="148" cy="158" r="1.8" fill="#C6EFEA" />
+  </g>
+
+  <!-- Center Map Pin -->
+  <path d="M100 44 C88 44 79 53 79 65 C79 79 100 99 100 99 C100 99 121 79 121 65 C121 53 112 44 100 44 Z" fill="#083835" stroke="#FFFFFF" stroke-width="0.8" />
+  <circle cx="100" cy="63" r="7.5" fill="url(#copperPinGrad)" stroke="#5D2817" stroke-width="0.6" />
+  <circle cx="98.5" cy="61.5" r="2" fill="#FFFFFF" opacity="0.4" />
+</svg>

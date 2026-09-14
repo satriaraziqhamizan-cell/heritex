@@ -1,0 +1,6 @@
+{
+  "name": "HERITEX",
+  "description": "Explore Heritage, Experience Technology. Ekosistem Game-Based Cultural Literacy, AI Verifier, Living Map, dan Pelestarian Warisan Budaya Indonesia.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
